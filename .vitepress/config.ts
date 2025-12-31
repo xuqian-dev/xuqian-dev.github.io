@@ -23,9 +23,9 @@ export default defineConfig({
       {
         text: 'Java',
         items: [
-          { text: '经典问题', link: '/经典问题' },
+          { text: '经典问题', link: '/Java/经典问题' },
           { text: '面试', items: [
-              { text: '经典问题', link: '/经典问题' }
+              { text: '经典问题', link: '/Java/经典问题' }
             ]
           },
           { text: 'Runtime API Examples', link: '/api-examples' }
