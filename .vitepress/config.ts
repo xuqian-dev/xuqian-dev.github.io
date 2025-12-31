@@ -8,7 +8,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Java', link: '/Java/' },
+      { text: 'Java', link: '/Java' },
       { text: 'Examples', link: '/markdown-examples' }
     ],
 
