@@ -8,6 +8,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
+      { text: 'Java', link: '/Java/' }
       { text: 'Examples', link: '/markdown-examples' }
     ],
 
@@ -16,6 +17,17 @@ export default defineConfig({
         text: 'Examples',
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
+          { text: 'Runtime API Examples', link: '/api-examples' }
+        ]
+      },
+      {
+        text: 'Java',
+        items: [
+          { text: '经典问题', link: '/经典问题' },
+          { text: '面试', items: [
+              { text: '经典问题', link: '/经典问题' }
+            ]
+          },
           { text: 'Runtime API Examples', link: '/api-examples' }
         ]
       }
