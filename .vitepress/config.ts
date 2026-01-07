@@ -22,6 +22,10 @@ export default defineConfig({
             { text: '面试', items: [
                 { text: '经典问题', link: '/Java/经典问题' }
               ]
+            },
+            { text: 'RocketMQ', items: [
+                { text: '消息消费', link: '/Java/RocketMQ/消息消费' }
+              ]
             }
           ]
         }
