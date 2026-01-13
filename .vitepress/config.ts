@@ -24,7 +24,7 @@ export default defineConfig({
               ]
             },
             { text: 'RocketMQ', items: [
-                { text: '消息消费', link: '/Java/RocketMQ/消息消费' }
+                { text: '顺序消费和并发消费', link: '/Java/RocketMQ/顺序消费和并发消费' }
               ]
             }
           ]
