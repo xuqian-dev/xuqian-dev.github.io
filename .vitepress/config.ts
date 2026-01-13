@@ -16,21 +16,38 @@ export default defineConfig({
       // 当用户位于 `Java` 目录时，会显示此侧边栏
       '/Java/': [
         {
-          text: 'Java',
+          text: '面试',
           collapsed: false,
           items: [
             { text: '经典问题', link: '/Java/经典问题' },
-            { text: '面试', items: [
-                { text: '经典问题', link: '/Java/经典问题' }
-              ]
-            },
-            { text: 'RocketMQ', items: [
-                { text: '顺序消费和并发消费', link: '/Java/RocketMQ/顺序消费和并发消费' }
-              ]
-            }
           ]
+        },
+        { 
+            text: 'RocketMQ', 
+            collapsed: false,
+            items: [
+                { text: '顺序消费和并发消费', link: '/Java/RocketMQ/顺序消费和并发消费' }
+            ]
         }
       ],
+
+      // '/Java/': [
+      //   {
+      //     text: 'Java',
+      //     collapsed: false,
+      //     items: [
+      //       { text: '经典问题', link: '/Java/经典问题' },
+      //       { text: '面试', items: [
+      //           { text: '经典问题', link: '/Java/经典问题' }
+      //         ]
+      //       },
+      //       { text: 'RocketMQ', items: [
+      //           { text: '顺序消费和并发消费', link: '/Java/RocketMQ/顺序消费和并发消费' }
+      //         ]
+      //       }
+      //     ]
+      //   }
+      // ],
 
       // 当用户位于 `config` 目录时，会显示此侧边栏
       '/': [
