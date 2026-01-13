@@ -13,10 +13,11 @@ export default defineConfig({
     ],
 
     sidebar: {
-      // 当用户位于 `guide` 目录时，会显示此侧边栏
+      // 当用户位于 `Java` 目录时，会显示此侧边栏
       '/Java/': [
         {
           text: 'Java',
+          collapsed: false,
           items: [
             { text: '经典问题', link: '/Java/经典问题' },
             { text: '面试', items: [
