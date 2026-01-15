@@ -22,13 +22,13 @@ export default defineConfig({
             { text: '经典问题', link: '/Java/经典问题' },
           ]
         },
-        { 
-            text: 'RocketMQ', 
-            collapsed: false,
-            items: [
-                { text: '顺序消费和并发消费', link: '/Java/RocketMQ/顺序消费和并发消费' },
-                { text: '延时消息', link: '/Java/RocketMQ/延时消息' },
-            ]
+        {
+          text: 'RocketMQ',
+          collapsed: false,
+          items: [
+            { text: '顺序消费和并发消费', link: '/Java/RocketMQ/顺序消费和并发消费' },
+            { text: '延时消息', link: '/Java/RocketMQ/延时消息' },
+          ]
         }
       ],
 
@@ -46,6 +46,11 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+    ],
+
+    docFooter: {
+      prev: '上一页',
+      next: '下一页'
+    }
   }
 })
