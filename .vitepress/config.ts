@@ -28,6 +28,8 @@ export default defineConfig({
           items: [
             { text: '顺序消费和并发消费', link: '/Java/RocketMQ/顺序消费和并发消费' },
             { text: '延时消息', link: '/Java/RocketMQ/延时消息' },
+            { text: '顺序消费和并发消费（AI）', link: '/Java/RocketMQ/顺序消费和并发消费(AI重写)' },
+            { text: '延时消息（AI）', link: '/Java/RocketMQ/延时消息(AI重写)' },
           ]
         }
       ],
